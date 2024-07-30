@@ -1,0 +1,94 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 317px;
+  width: 225px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 5px 5px rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+.container .informacoes {
+  font-size: 10px;
+  line-height: 16px;
+  color: hsl(0, 0%, 50%);
+}
+
+
+.container .container_ilustration img {
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+.usur {
+  margin-top: 6px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.usur h2 {
+  margin-left: 8px;
+}
+
+.tag {
+  padding: 4px 8px;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  font-size: 0.59rem;
+  border-radius: 3px;
+
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 800;
+
+}
+
+a {
+  color: hsl(0, 0%, 0%);
+  transition: 0.5s;
+}
+
+.container:hover {
+  box-shadow: 10px 10px black;
+  transition: 0.5s;
+}
+
+.container:hover a {
+  color: hsl(47, 88%, 63%);
+}
+
+.usur img {
+  width: 20px;
+}
+
+h2,
+h3 {
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 10px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 0.59rem;
+  margin-bottom: 12px;
+}
